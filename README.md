@@ -38,6 +38,18 @@ zcat chr19.fa.gz | head -100000 | gzip > chr19_100k.fa.gz ## The fasta only cont
 
 The GTF file contains annotation for more than just the chr19 data but has large portions of exons on chr19, so gives somewhat meaningful results. The cdna file was evaluated manually to determine an appropriate range with chr19 entries for testing.
 
+# Updated reference file
+
+Assembly and annotation of GRCm39 were downloaded from ensemble.
+The genome was subsetted to chromosome 19 with samtools.
+The annotation was subsetted to chromosome 19 with gffread.
+
+```
+samtools faidx Mus_musculus.GRCm39.dna.primary_assembly.fa 19 > Mus_musculus.GRCm39.dna.primary_assembly.chr19.fa
+gffread Mus_musculus.GRCm39.104.gtf -T -F -r 19:0..61420005 | sed s/\"\"/\"/g > Mus_musculus.GRCm39.104.chr19.gtf
+```
+
+
 ## Support
 
 For further information or help, don't hesitate to get in touch on our [Slack](https://nfcore.slack.com) or [Click here for an invite](https://nf-core-invite.herokuapp.com/)
