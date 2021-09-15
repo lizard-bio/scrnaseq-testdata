@@ -40,13 +40,10 @@ The GTF file contains annotation for more than just the chr19 data but has large
 
 # Updated reference file
 
-Assembly and annotation of GRCm39 were downloaded from ensemble.
-The genome was subsetted to chromosome 19 with samtools.
-The annotation was subsetted to chromosome 19 with gffread.
-
+Assembly and annotation of GRCm39 were downloaded from gencode
 ```
-samtools faidx Mus_musculus.GRCm39.dna.primary_assembly.fa 19 > Mus_musculus.GRCm39.dna.primary_assembly.chr19.fa
-gffread Mus_musculus.GRCm39.104.gtf -T -F -r 19:0..61420005 | sed s/\"\"/\"/g > Mus_musculus.GRCm39.104.chr19.gtf
+samtools faidx GRCm39.genome.fa chr19 > GRCm39.genome.chr19.fa
+grep chr19 "gencode.vM27.annotation.gtf"
 ```
 
 
