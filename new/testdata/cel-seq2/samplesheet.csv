@@ -1,0 +1,2 @@
+group,replicate,fastq_1,fastq_2
+P1_CNV_3d_1_3,1,https://raw.githubusercontent.com/grunenthal/scrnaseq-testdata/main/new/testdata/cel-seq2/SRR12978707_subset100k_1.fastq.gz,https://raw.githubusercontent.com/grunenthal/scrnaseq-testdata/main/new/testdata/cel-seq2/SRR12978707_subset100k_2.fastq.gz
