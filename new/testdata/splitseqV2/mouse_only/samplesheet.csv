@@ -1,0 +1,3 @@
+group,replicate,fastq_1,fastq_2
+SRR6750057_S1,1,https://raw.githubusercontent.com/lizard-bio/scrnaseq-testdata/main/new/testdata/splitseqV2/mouse_only/SRR6750041_1_sub100k.fastq.gz,https://raw.githubusercontent.com/lizard-bio/scrnaseq-testdata/main/new/testdata/splitseqV2/mouse_only/SRR6750041_2_sub100k.fastq.gz
+SRR6750057_S2,1,https://raw.githubusercontent.com/lizard-bio/scrnaseq-testdata/main/new/testdata/splitseqV2/mouse_only/SRR6750041_1_sub100k.fastq.gz,https://raw.githubusercontent.com/lizard-bio/scrnaseq-testdata/main/new/testdata/splitseqV2/mouse_only/SRR6750041_2_sub100k.fastq.gz
