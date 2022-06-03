@@ -1,2 +1,3 @@
 group,replicate,fastq_1,fastq_2
 rDRG1,1,https://raw.githubusercontent.com/lizard-bio/scrnaseq-testdata/main/new/testdata/splitseqPB/rDRG_spl_1_1_1_sub100k.fq.gz,https://raw.githubusercontent.com/lizard-bio/scrnaseq-testdata/main/new/testdata/splitseqPB/rDRG_spl_1_1_2_sub100k.fq.gz
+rDRG2,1,https://raw.githubusercontent.com/lizard-bio/scrnaseq-testdata/main/new/testdata/splitseqPB/rDRG_spl_1_1_1_sub100k.fq.gz,https://raw.githubusercontent.com/lizard-bio/scrnaseq-testdata/main/new/testdata/splitseqPB/rDRG_spl_1_1_2_sub100k.fq.gz
