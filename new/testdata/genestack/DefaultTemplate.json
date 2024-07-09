@@ -1,0 +1,695 @@
+[
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:libraryObject",
+        "name": "genestack:accession",
+        "isReadOnly": true
+    },
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Library ID",
+        "isReadOnly": true
+    },
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Sample Source ID",
+        "isReadOnly": true
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Adapter Sequence Read",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.DecimalValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Average Fragment Size",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.DecimalValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Average GC Content",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Flow Cell",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Library Preparation Protocol",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Library Type",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Library Type",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.IntegerValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Read Length",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.DecimalValue",
+        "dataType": "genestack:libraryObject",
+        "name": "RIN Value - RNA Fragmentation Efficiency",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.IntegerValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Total Fragments",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Experiment Instrument",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Experiment Instrument",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Experiment Site",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Experiment Type",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Experiment Type",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.DecimalValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Treatment Concentration",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.DecimalValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Dose",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.IntegerValue",
+        "dataType": "genestack:libraryObject",
+        "name": "Fractionation",
+        "isReadOnly": false
+    },
+    {
+        "description": "Genestack-generated accession",
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "study",
+        "name": "genestack:accession",
+        "isReadOnly": true
+    },
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "study",
+        "name": "Study Source",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "study",
+        "name": "Study Source ID",
+        "isReadOnly": false
+    },
+    {
+        "description": "Hypothesis, abstract - enough to understand what the study is about",
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "study",
+        "name": "Study Description",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "study",
+        "name": "Study Type",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "study",
+        "name": "Study Design",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Therapeutic Area",
+        "description": "Name of the TA",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "study",
+        "name": "Therapeutic Area",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "study",
+        "name": "Contributor",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "study",
+        "name": "Contributor Email",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.DateTimeValue",
+        "dataType": "study",
+        "name": "Release Date",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.DateTimeValue",
+        "dataType": "study",
+        "name": "Last Update Date",
+        "isReadOnly": false
+    },
+    {
+        "description": "",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "study",
+        "name": "Import Source URL",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "genestack:accession",
+        "isReadOnly": true
+    },
+    {
+        "description": "A mandatory field specifying the exact type of data you have uploaded. Please do not remove this attribute.",
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Data Class",
+        "isReadOnly": true
+    },
+    {
+        "dictionaryName": "Sequencing Platforms",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Experimental Platform",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Data Processing Method",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Scale",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Genome Version",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Pipeline ID",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Data Files / Raw",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Data Files / Processed",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Import Source URL",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Data Species",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Data Species",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Name",
+        "isReadOnly": false
+    },
+    {
+        "description": "If your dataset contains multiple columns for feature, this parameter lists columns with text content (e.g., Gene Name). Please do not remove this attribute.",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Features (string)",
+        "isReadOnly": true
+    },
+    {
+        "description": "If your dataset contains multiple columns for feature, this parameter lists columns with numeric content (e.g., Retention Time, M/Z ratio). Please do not remove this attribute.",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Features (numeric)",
+        "isReadOnly": true
+    },
+    {
+        "description": "If your dataset contains multiple measurement or value types for each item (like a sample, library, or preparation), this parameter lists these (e.g. Intensity, Fold Change, p-value). Please do not remove this attribute.",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:transcriptomicsParent",
+        "name": "Values (numeric)",
+        "isReadOnly": true
+    },
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:facsParent",
+        "name": "genestack:accession",
+        "isReadOnly": true
+    },
+    {
+        "description": "A mandatory field specifying the exact type of data you have uploaded. Please do not remove this attribute.",
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:facsParent",
+        "name": "Data Class",
+        "isReadOnly": true
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:facsParent",
+        "name": "Experimental Platform",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:facsParent",
+        "name": "Data Processing Method",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:facsParent",
+        "name": "Scale",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:facsParent",
+        "name": "Pipeline ID",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:facsParent",
+        "name": "Raw Data Files",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:facsParent",
+        "name": "Processed Data Files",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:facsParent",
+        "name": "Import Source URL",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:facsParent",
+        "name": "Name",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "genestack:accession",
+        "isReadOnly": true
+    },
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "Preparation ID",
+        "isReadOnly": true
+    },
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "Sample Source ID",
+        "isReadOnly": true
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "Chromatography",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "Derivatization",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "Digestion",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "Experiment Site",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "Experiment Instrument",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "Experiment Type",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "Quantitation Method",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "PX Sample Preparation Protocol",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Scope",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:preparationObject",
+        "name": "Scope",
+        "isReadOnly": false
+    },
+    {
+        "description": "Genestack-generated accession",
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "genestack:accession",
+        "isReadOnly": true
+    },
+    {
+        "description": "Unique sample identifier",
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Sample Source ID",
+        "isReadOnly": true
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Sample Name",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "NCBI Taxonomy",
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Organism",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Sex",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Sex",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Disease Ontology Extended",
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Disease",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.DecimalValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Age",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Units - Time/Frequency",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Age Unit",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Uberon Anatomical Entities",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Tissue",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Cell Type",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Cellosaurus Controlled Vocabulary",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Cell Line",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "ChEBI Ontology",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Compound Treatment / Compound",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.DecimalValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Compound Treatment / Dose",
+        "isReadOnly": false
+    },
+    {
+        "dictionaryName": "Units - Dose/Mass/Volume",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:sampleObject",
+        "name": "Compound Treatment / Dose Unit",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:sampleObject",
+        "name": "Data Files / Raw",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:sampleObject",
+        "name": "Data Files / Processed",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:sampleObject",
+        "name": "Import Source URL",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:genomicsParent",
+        "name": "genestack:accession",
+        "isReadOnly": true
+    },
+    {
+        "description": "A mandatory field specifying the exact type of data you have uploaded. Please do not remove this attribute.",
+        "isRequired": true,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:genomicsParent",
+        "name": "Data Class",
+        "isReadOnly": true
+    },
+    {
+        "dictionaryName": "Sequencing Platforms",
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:genomicsParent",
+        "name": "Experimental Platform",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:genomicsParent",
+        "name": "Data Processing Method",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:genomicsParent",
+        "name": "Scale",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:genomicsParent",
+        "name": "Genome Version",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:genomicsParent",
+        "name": "Pipeline ID",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:genomicsParent",
+        "name": "Raw Data Files",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:genomicsParent",
+        "name": "Processed Data Files",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.ExternalLink",
+        "dataType": "genestack:genomicsParent",
+        "name": "Import Source URL",
+        "isReadOnly": false
+    },
+    {
+        "isRequired": false,
+        "metainfoType": "com.genestack.api.metainfo.StringValue",
+        "dataType": "genestack:genomicsParent",
+        "name": "Name",
+        "isReadOnly": false
+    }
+]
